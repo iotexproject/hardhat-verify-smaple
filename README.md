@@ -6,8 +6,15 @@ Try running some of the following tasks:
 
 ```shell
 npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```
+
+delpoy 
+
+```shell
+npx hardhat ignition deploy ./ignition/modules/MyContract.ts --network mainnet
+```
+
+verify
+```shell
+hardhat verify  0x181deCBaFE0F85e8c3EfBb80167fE0F6e743Ba65 ZZTEST ZZTEST --network mainnet
 ```
