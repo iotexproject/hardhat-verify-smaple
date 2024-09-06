@@ -1,8 +1,8 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "deploy": "hardhat ignition deploy ./ignition/modules/MyContract.ts --network iotex",
-    "verify": "hardhat verify --network iotex 0x9296B2cBAfA2D0C539c4D15578Fb162E683bE6B4 ZZTEST ZZTEST "
+    "deploy": "hardhat ignition deploy ./ignition/modules/MyContract.ts --network mainnet",
+    "verify": "hardhat verify --network mainnet 0x9296B2cBAfA2D0C539c4D15578Fb162E683bE6B4 ZZTEST ZZTEST "
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
