@@ -23,7 +23,9 @@ const config: HardhatUserConfig = {
         network: "mainnet",
         chainId: 4689,
         urls: {
-          apiURL: "https://iotexscout.io/api",
+          apiURL: "https://index.iotexscan.io/api",
+          // dev
+          // apiURL: "http://localhost:6999/api",
           browserURL: "https://iotexscan.io"
         }
       },
@@ -31,7 +33,7 @@ const config: HardhatUserConfig = {
         network: "testnet",
         chainId: 4690,
         urls: {
-          apiURL: "https://testnet.iotexscout.io/api",
+          apiURL: "https://testnet.index.iotexscan.io/api",
           browserURL: "https://testnet.iotexscan.io"
         }
       }
